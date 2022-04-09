@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <nav>
+    <a
+      href="/e"
+    >
+      Employee Login
+    </a>
+     
+    <br />
+    <a
+      href="/c"
+    >
+      Customer Login
+    </a>
+  </nav>
+</div>
+`;

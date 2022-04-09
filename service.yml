@@ -1,0 +1,20 @@
+tools:
+  exceptions: https://sentry.io/organizations/dcsil/projects/chaindash-app/?project=6251553
+  logging: https://service.us2.sumologic.com/ui/?appName=chaindash-app
+  ci: https://github.com/dcsil/chaindash-app/blob/master/.github/workflows/main.yml
+
+services:
+  production: https://chaindash-app.herokuapp.com/
+
+docs:
+  getting_started: https://github.com/dcsil/chaindash-app
+
+commands:
+  bootstrap: script/bootstrap
+  build: npm run build
+  server:
+    production: npm run start
+    development: npm run dev
+  test: npm run test
+  lint: npm run lint
+  database: cluster0.71uui.mongodb.net/chaindash-api

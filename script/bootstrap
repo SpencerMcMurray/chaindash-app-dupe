@@ -1,0 +1,5 @@
+#!/bin/sh
+cat .env.example > .env
+sudo apt update -y
+sudo apt install nodejs npm -y
+npm i
